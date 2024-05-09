@@ -27,12 +27,12 @@ app.use(morgan('dev')) // to show api on console->  Morgan is a Node.js middlewa
 
 
 // routes
-app.use("/api/v1/user",userRoutes);
+app.use("/user",userRoutes);
 app.use("/api/v1/blog",blogRoutes);
 
 
 //listen 
-const PORT=process.env.PORT || 8081;
+const PORT=process.env.PORT || 3001;
 app.listen(PORT,()=>{
     console.log(`Server Running on ${process.env.DEV_MODE} MODE on portn number ${PORT}`.bgCyan.white);
 })

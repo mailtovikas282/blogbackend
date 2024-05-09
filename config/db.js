@@ -1,5 +1,6 @@
 const mongoose=require("mongoose");
-const colors =require('colors');const e = require("express");
+const colors =require('colors');
+const e = require("express");
 
 const connectDB=async()=>{
     try{
