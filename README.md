@@ -22,7 +22,7 @@
 ## Run Locally
 1. Clone this GitHub repository to your local machine
 ```bash
-  git clone https://github.com/Srishti8587/SocialBlend
+  git clone https://github.com/mailtovikas282/blogbackend
 ```
 
 
